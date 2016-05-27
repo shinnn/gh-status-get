@@ -1,0 +1,42 @@
+{
+  "name": "gh-status-get",
+  "version": "1.0.0",
+  "description": "Create a GET request to the Github Status API",
+  "repository": "shinnn/gh-status-get",
+  "author": "Shinnosuke Watanabe (https://github.com/shinnn)",
+  "scripts": {
+    "pretest": "eslint --fix --config @shinnn/node index.js test.js",
+    "test": "node --strong_mode --throw-deprecation --track-heap-objects test.js",
+    "coverage": "node --strong_mode node_modules/.bin/istanbul cover test.js"
+  },
+  "license": "MIT",
+  "files": [
+    "index.js"
+  ],
+  "keywords": [
+    "request",
+    "https",
+    "wrapper",
+    "api",
+    "github",
+    "status",
+    "stat",
+    "stats",
+    "gh",
+    "promise",
+    "promises",
+    "then",
+    "thenable",
+    "json",
+    "get"
+  ],
+  "dependencies": {
+    "fettuccine": "^1.0.2"
+  },
+  "devDependencies": {
+    "@shinnn/eslint-config-node": "^2.0.0",
+    "eslint": "^2.10.2",
+    "istanbul": "^0.4.3",
+    "tape": "^4.5.1"
+  }
+}
